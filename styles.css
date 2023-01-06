@@ -99,6 +99,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 3em;
 }
 
 .boxes h2 {
@@ -123,24 +124,42 @@ img {
     border-radius: 10px;
 }
 
+.box .text {
+    
+    padding-top: 1em;
+    text-align: center;
+}
 .quote  {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding: 100px 200px;
     
 }
 
+.quote .attribute {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
 
+.action {
+    padding: 100px;
+}
 .action .container{
     display: flex;
     background-color: #3882f6;
     border-radius: 10px;
     margin: 20px 50px;
-    padding: 50px;
+    padding: 50px 80px;
     font-size: 24px;
     color: #f9faf8;
-
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -155,4 +174,10 @@ img {
 
 .footer .container {
     background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
